@@ -1,11 +1,12 @@
-import logo from './BellaDiallo.jpeg';//import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+import BellaDiallo from './BellaDiallo.jpeg'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src="BellaDiallo.jpeg" className="Bella Diallo" alt="logo" />
+        <img src={BellaDiallo} className="Bella Diallo" alt="logo" />
         <p>
         My name is Mamadou Bella Diallo and I'm going to master React!
         </p>
